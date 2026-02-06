@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visit Rwanda 🇷🇼</title>
+
+  <style>
+    /* ===== GLOBAL STYLES ===== */
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f4f7f5;
+      color: #333;
+    }
+
+    h1, h2, h3 {
+      margin: 10px 0;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* ===== HEADER / NAV ===== */
+    header {
+      background-color: #1b5e20;
+      padding: 15px 30px;
+    }
+
+    .nav-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* ===== HERO SECTION ===== */
+    .hero {
+      position: relative;
+      text-align: center;
+    }
+
+    .hero img {
+      max-height: 450px;
+      object-fit: cover;
+    }
+
+    .hero-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: rgba(0, 0, 0, 0.6);
+      color: white;
+      padding: 25px;
+      border-radius: 15px;
+    }
+
+    /* ===== ABOUT SECTION ===== */
+    .about {
+      padding: 50px 30px;
+      text-align: center;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    /* ===== CARDS SECTION ===== */
+    .cards-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      padding: 40px;
+            border-color:green;
+    }
+
+    .card {
+      border-color:green;
+      border-radius: 15px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .card img {
+      border-radius: 10px;
+      margin-bottom: 15px;
+  width: 100%;
+  height: 800px;        /* SAME HEIGHT */
+  object-fit: cover;   /* CROPS nicely */
+  border-radius: 10px;
+}
+    /* ===== ACTION BUTTONS ===== */
+    .actions {
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .actions button {
+      background-color: #2e7d32;
+      color: white;
+      border: none;
+      padding: 14px 22px;
+      margin: 10px;
+      font-size: 16px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .actions button:hover {
+      background-color: #1b5e20;
+    }
+
+    /* ===== FOOTER ===== */
+    footer {
+      background-color: #1b5e20;
+      color: white;
+      text-align: center;
+      padding: 25px;
+      margin-top: 40px;
+    }
+    a:link{
+      color:white;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header>
+    <div class="nav-container">
+      <div class="logo">Visit Rwanda 🇷🇼</div>
+      <a href="../index.html">Port-home</a>
+      <nav>
+        <a href="#">Home</a>
+        <a href="artiste.html">Talents</a>
+        <a href="#">Features</a>
+        <a href="#">Leadership</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <img src="visitrda.png" alt="Visit Rwanda">
+    <div class="hero-text">
+      <h1>Welcome to Rwanda</h1>
+      <p>The Land of a Thousand Hills</p>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about">
+    <h2>About Rwanda</h2>
+    <p>
+      Rwanda, officially the Republic of Rwanda, is located in East-Central Africa.
+      It is known for its strong leadership, unity, resilience, and rapid development.
+      The national motto is <strong>Unity, Work, Patriotism</strong>.
+    </p>
+  </section>
+
+  <!-- ===== CARDS ===== -->
+  <section class="cards-container">
+
+    <div class="card">
+      <img src="pk.png" alt="Government of Rwanda">
+      <h3>Government</h3>
+      <p>
+        Rwanda is a republic with a stable government focused on peace and unity.
+      </p>
+    </div>
+
+    <div class="card">
+      <img src="culture.png" alt="Rwandan Culture">
+      <h3>Culture</h3>
+      <p>
+        Rwanda has a rich culture expressed through dance, music, art, and traditions.
+      </p>
+    </div>
+
+    <div class="card">
+      <img src="development.png" alt="Development">
+      <h3>Development</h3>
+      <p>
+        Rwanda is one of Africa’s fastest-growing economies and a model of innovation.
+      </p>
+    </div>
+
+  </section>
+
+  <!-- ===== ACTIONS ===== -->
+  <section class="actions">
+    <button>Modernity & Development</button>
+    <button>Economy & Lifestyle</button>
+    <button>Geography</button>
+    <button>History & Resilience</button>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <h3>Republic of Rwanda</h3>
+    <p>Unity • Work • Patr
