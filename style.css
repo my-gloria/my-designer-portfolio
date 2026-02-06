@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.hero {
+    background-color: #6c63ff;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    border: none;
+    background-color: white;
+    color: #6c63ff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.about, .projects {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.projects {
+    background-color: white;
+}
+
+.project-card {
+    display: inline-block;
+    width: 200px;
+    height: 120px;
+    background-color: #e0e0e0;
+    margin: 10px;
+    line-height: 120px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4a42e6;
+    color: white;
+}
+a:link{
+background-color:green;
+color:#6c63ff;
+}
+a:hover{
+    background:blue;
+    color:#fff;
+}
+a:visited{
+    background-color:rgb(102, 78, 237);
+    color:white;
+}
